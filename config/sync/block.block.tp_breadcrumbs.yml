@@ -1,0 +1,22 @@
+uuid: 4adef790-0fb3-4287-94e1-a2f2bd9e5774
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tp
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: tp_breadcrumbs
+theme: tp
+region: content
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: cb1f5326-6651-476f-a695-cc14ba79d943
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - tp
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: tp_search_form_wide
+theme: tp
+region: content
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

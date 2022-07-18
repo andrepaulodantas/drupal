@@ -1,0 +1,22 @@
+uuid: 84226c65-d50c-4811-9258-51c83165c787
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - tp
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: tp_help
+theme: tp
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

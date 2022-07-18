@@ -1,0 +1,23 @@
+uuid: 1277f35c-d620-4203-953f-c2748f1e552f
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - tp
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: tp_search_form_narrow
+theme: tp
+region: content
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

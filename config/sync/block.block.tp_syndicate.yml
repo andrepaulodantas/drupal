@@ -1,0 +1,23 @@
+uuid: 1ede8df1-9d35-459f-b8c6-23b63551d13f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - tp
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: tp_syndicate
+theme: tp
+region: content
+weight: -6
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }
