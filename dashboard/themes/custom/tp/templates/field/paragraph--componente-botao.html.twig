@@ -1,0 +1,6 @@
+{% if dashboard.font_color %}
+  {% set font_color = 'style=color:#' ~ dashboard.font_color %}
+{% endif %}
+<div class="component-button">
+  <a class="button btn {{ dashboard.model }} {{ dashboard.size }} {{ dashboard.css }}" href="{{ dashboard.url }}" {{ font_color }}>{{ dashboard.title }}</a>
+</div>
